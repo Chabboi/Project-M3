@@ -1,3 +1,53 @@
+body {
+    background-color: #181f33;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: #d9a5cb;
+}
+
+.bunglogo img {
+    width: 1250px;
+    height: 703px;
+}
+
 .bungh1 {
     color: blue;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.server-link a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.server-link a:link {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.server-link a:visited {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.form-container {
+    display: block;
+}
+
+.form input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    width: 15%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
